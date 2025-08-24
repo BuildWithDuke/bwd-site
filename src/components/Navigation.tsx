@@ -27,8 +27,18 @@ const Navigation: React.FC = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-foreground hover:text-accent transition-colors">
-            BuildWithDuke
+          <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+            <svg width="200" height="60" viewBox="0 0 200 60" className="h-16">
+              <g transform="translate(12, 12)">
+                <path d="M20 7L8 25H16L12 37L24 19H16L20 7Z" fill="currentColor" className="text-accent"/>
+              </g>
+              <text x="52" y="24" fontFamily="system-ui, -apple-system, sans-serif" fontSize="20" fontWeight="700" fill="currentColor" className="text-foreground">
+                Build
+              </text>
+              <text x="52" y="44" fontFamily="system-ui, -apple-system, sans-serif" fontSize="20" fontWeight="700" fill="currentColor" className="text-accent">
+                WithDuke
+              </text>
+            </svg>
           </Link>
           
           <div className="flex items-center gap-8">
