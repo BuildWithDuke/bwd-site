@@ -2,75 +2,70 @@ import { Project } from '@/types/project';
 
 export const projects: Project[] = [
   {
-    id: 'ai-chat-assistant',
-    title: 'AI Chat Assistant',
-    description: 'Intelligent conversational AI built with modern ML frameworks',
-    technologies: ['Python', 'FastAPI', 'OpenAI', 'React', 'WebSocket'],
-    demoUrl: 'https://chat.buildwithduke.com',
-    githubUrl: 'https://github.com/duke/ai-chat',
-    imageUrl: '/projects/ai-chat.jpg',
+    id: 'linecheck',
+    title: 'LineCheck',
+    description: 'AI-powered computer vision system detecting damaged electrical insulators in power transmission lines with 99.38% accuracy',
+    technologies: ['Python', 'PyTorch', 'FastAI', 'ResNet-34', 'FastAPI', 'Docker'],
+    githubUrl: 'https://github.com/DukeofWaterloo/LineCheck',
+    imageUrl: '/projects/linecheck.jpg',
     featured: true,
     category: 'ai-ml',
-    status: 'live'
-  },
-  {
-    id: 'task-automation-suite',
-    title: 'Task Automation Suite',
-    description: 'Personal productivity tool that automates daily workflows',
-    technologies: ['Node.js', 'TypeScript', 'PostgreSQL', 'Next.js'],
-    demoUrl: 'https://automation.buildwithduke.com',
-    githubUrl: 'https://github.com/duke/task-automation',
-    imageUrl: '/projects/automation.jpg',
-    featured: true,
-    category: 'fullstack',
-    status: 'live'
-  },
-  {
-    id: 'ml-image-classifier',
-    title: 'ML Image Classifier',
-    description: 'Real-time image classification using custom trained models',
-    technologies: ['Python', 'TensorFlow', 'Flask', 'React', 'Docker'],
-    demoUrl: 'https://classify.buildwithduke.com',
-    githubUrl: 'https://github.com/duke/ml-classifier',
-    imageUrl: '/projects/classifier.jpg',
-    featured: true,
-    category: 'ai-ml',
-    status: 'live'
-  },
-  {
-    id: 'expense-tracker',
-    title: 'Smart Expense Tracker',
-    description: 'AI-powered expense categorization and budget insights',
-    technologies: ['React Native', 'Node.js', 'MongoDB', 'Python'],
-    demoUrl: 'https://expenses.buildwithduke.com',
-    githubUrl: 'https://github.com/duke/expense-tracker',
-    imageUrl: '/projects/expenses.jpg',
-    featured: true,
-    category: 'fullstack',
-    status: 'development'
-  },
-  {
-    id: 'code-review-bot',
-    title: 'Code Review Bot',
-    description: 'Automated code review assistant using LLMs',
-    technologies: ['Python', 'GitHub API', 'OpenAI', 'Docker'],
-    githubUrl: 'https://github.com/duke/code-review-bot',
-    imageUrl: '/projects/code-review.jpg',
-    featured: true,
-    category: 'tool',
     status: 'completed'
   },
   {
-    id: 'weather-dashboard',
-    title: 'Weather Analytics Dashboard',
-    description: 'Interactive weather data visualization and forecasting',
-    technologies: ['Vue.js', 'D3.js', 'Python', 'FastAPI'],
-    demoUrl: 'https://weather.buildwithduke.com',
-    githubUrl: 'https://github.com/duke/weather-dashboard',
-    imageUrl: '/projects/weather.jpg',
+    id: 'eagle-eye',
+    title: 'Eagle Eye',
+    description: 'AI-powered B2B SaaS platform for managing and responding to online Google reviews with intelligent, context-aware responses',
+    technologies: ['Python', 'Flask', 'Ollama', 'PostgreSQL', 'Celery', 'Docker'],
+    githubUrl: 'https://github.com/DukeofWaterloo/Eagle-Eye',
+    imageUrl: '/projects/eagle-eye.jpg',
+    featured: true,
+    category: 'ai-ml',
+    status: 'live'
+  },
+  {
+    id: 'compass',
+    title: 'Compass',
+    description: 'AI-powered course recommendation system for University of Waterloo students using LangChain and modern web technologies',
+    technologies: ['Python', 'FastAPI', 'LangChain', 'React', 'TypeScript', 'SQLite'],
+    githubUrl: 'https://github.com/DukeofWaterloo/Compass',
+    imageUrl: '/projects/compass.jpg',
+    featured: true,
+    category: 'ai-ml',
+    status: 'completed'
+  },
+  {
+    id: 'educated-misfits',
+    title: 'Educated Misfits',
+    description: 'Full-stack e-commerce platform for campus culture apparel with Stripe integration, creator dashboard, and comprehensive business logic',
+    technologies: ['Node.js', 'Express', 'Stripe API', 'HTML5', 'CSS3', 'JavaScript'],
+    githubUrl: 'https://github.com/DukeofWaterloo/educated-misfits',
+    imageUrl: '/projects/educated-misfits.jpg',
     featured: true,
     category: 'fullstack',
     status: 'live'
+  },
+  {
+    id: 't-9',
+    title: 'T-9 Ultimate Tic-Tac-Toe',
+    description: 'Real-time multiplayer Ultimate Tic-Tac-Toe game with WebSocket communication, complex game logic, and responsive design',
+    technologies: ['Go', 'Gin', 'SvelteKit', 'TypeScript', 'WebSocket'],
+    githubUrl: 'https://github.com/DukeofWaterloo/T-9',
+    imageUrl: '/projects/t9.jpg',
+    featured: true,
+    category: 'fullstack',
+    status: 'live'
+  },
+  {
+    id: 'pigeon',
+    title: 'Pigeon',
+    description: 'Minimalist ephemeral file-sharing application for trusted networks with automatic file cleanup and large file support',
+    technologies: ['Node.js', 'Express', 'SQLite', 'Docker', 'HTML5'],
+    githubUrl: 'https://github.com/DukeofWaterloo/pigeon',
+    imageUrl: '/projects/pigeon.jpg',
+    featured: true,
+    category: 'tool',
+    status: 'development'
   }
 ];
 

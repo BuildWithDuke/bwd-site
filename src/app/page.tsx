@@ -17,11 +17,12 @@ export default function Home() {
         className="text-center mb-16"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-          Building the <span className="text-accent">Future</span>
+          From <span className="text-accent">Power Systems</span> to <span className="text-accent">AI</span>
         </h1>
         <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto mb-8">
-          Full-stack developer passionate about AI/ML, creating tools that matter, 
-          and pushing the boundaries of what&apos;s possible with modern technology.
+          Electrical Engineer transitioning to AI/ML and Software Development. 
+          Combining engineering rigor with cutting-edge technology to build intelligent solutions 
+          that bridge the physical and digital worlds.
         </p>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -30,10 +31,10 @@ export default function Home() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <button className="bg-accent hover:bg-accent-hover text-white font-medium py-3 px-6 rounded-lg transition-colors">
-            View Projects
+            See My Journey
           </button>
           <button className="border border-border hover:border-accent text-foreground hover:text-accent font-medium py-3 px-6 rounded-lg transition-all">
-            Get In Touch
+            Let&apos;s Connect
           </button>
         </motion.div>
       </motion.div>
@@ -41,7 +42,7 @@ export default function Home() {
       {/* Projects Grid */}
       <div>
         <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-          Featured Projects
+          Engineering → AI/ML Journey
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {featuredProjects.map((project, index) => (
@@ -63,14 +64,14 @@ export default function Home() {
       >
         <div className="bg-muted/50 rounded-2xl p-8 border border-border">
           <h3 className="text-xl font-semibold text-foreground mb-4">
-            Want to collaborate?
+            Ready to build intelligent solutions together?
           </h3>
           <p className="text-foreground/70 mb-6">
-            I&apos;m always interested in working on innovative projects that push boundaries 
-            and create meaningful impact.
+            I&apos;m actively seeking AI/ML and software engineering opportunities where I can apply 
+            my engineering foundation to solve complex problems with cutting-edge technology.
           </p>
           <button className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded-lg transition-colors">
-            Let&apos;s Talk
+            Get In Touch
           </button>
         </div>
       </motion.div>
