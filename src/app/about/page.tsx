@@ -171,12 +171,12 @@ export default function About() {
               of engineering fundamentals and modern technology skills. Let&apos;s build intelligent solutions that matter.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded-lg transition-colors">
+              <a href="/contact" className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded-lg transition-colors inline-block text-center">
                 Let&apos;s Connect
-              </button>
-              <button className="border border-border hover:border-accent text-foreground hover:text-accent font-medium py-2 px-6 rounded-lg transition-all">
+              </a>
+              <a href="/" className="border border-border hover:border-accent text-foreground hover:text-accent font-medium py-2 px-6 rounded-lg transition-all inline-block text-center">
                 See My Projects
-              </button>
+              </a>
             </div>
           </div>
         </motion.div>

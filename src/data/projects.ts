@@ -2,6 +2,17 @@ import { Project } from '@/types/project';
 
 export const projects: Project[] = [
   {
+    id: 'compass',
+    title: 'Compass',
+    description: 'AI-powered course recommendation system for University of Waterloo students using LangChain and modern web technologies',
+    technologies: ['Python', 'FastAPI', 'LangChain', 'React', 'TypeScript', 'SQLite'],
+    githubUrl: 'https://github.com/DukeofWaterloo/Compass',
+    imageUrl: '/projects/compass.jpg',
+    featured: true,
+    category: 'ai-ml',
+    status: 'completed'
+  },
+  {
     id: 'linecheck',
     title: 'LineCheck',
     description: 'AI-powered computer vision system detecting damaged electrical insulators in power transmission lines with 99.38% accuracy',
@@ -22,17 +33,6 @@ export const projects: Project[] = [
     featured: true,
     category: 'ai-ml',
     status: 'live'
-  },
-  {
-    id: 'compass',
-    title: 'Compass',
-    description: 'AI-powered course recommendation system for University of Waterloo students using LangChain and modern web technologies',
-    technologies: ['Python', 'FastAPI', 'LangChain', 'React', 'TypeScript', 'SQLite'],
-    githubUrl: 'https://github.com/DukeofWaterloo/Compass',
-    imageUrl: '/projects/compass.jpg',
-    featured: true,
-    category: 'ai-ml',
-    status: 'completed'
   },
   {
     id: 'educated-misfits',

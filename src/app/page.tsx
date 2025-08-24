@@ -30,12 +30,12 @@ export default function Home() {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <button className="bg-accent hover:bg-accent-hover text-white font-medium py-3 px-6 rounded-lg transition-colors">
+          <a href="/about" className="bg-accent hover:bg-accent-hover text-white font-medium py-3 px-6 rounded-lg transition-colors inline-block">
             See My Journey
-          </button>
-          <button className="border border-border hover:border-accent text-foreground hover:text-accent font-medium py-3 px-6 rounded-lg transition-all">
+          </a>
+          <a href="/contact" className="border border-border hover:border-accent text-foreground hover:text-accent font-medium py-3 px-6 rounded-lg transition-all inline-block">
             Let&apos;s Connect
-          </button>
+          </a>
         </motion.div>
       </motion.div>
 
@@ -70,9 +70,9 @@ export default function Home() {
             I&apos;m actively seeking AI/ML and software engineering opportunities where I can apply 
             my engineering foundation to solve complex problems with cutting-edge technology.
           </p>
-          <button className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded-lg transition-colors">
+          <a href="/contact" className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded-lg transition-colors inline-block">
             Get In Touch
-          </button>
+          </a>
         </div>
       </motion.div>
     </div>
