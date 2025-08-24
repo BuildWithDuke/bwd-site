@@ -39,7 +39,7 @@ export default function Contact() {
       link: 'https://linkedin.com/in/duke',
     },
     {
-      icon: '🐙',
+      icon: '💻',
       title: 'GitHub',
       value: '@duke',
       link: 'https://github.com/duke',
