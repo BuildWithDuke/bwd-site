@@ -45,10 +45,10 @@ export default function Contact() {
       link: 'https://github.com/duke',
     },
     {
-      icon: '🐦',
-      title: 'Twitter',
+      icon: '𝕏',
+      title: 'X',
       value: '@duke',
-      link: 'https://twitter.com/duke',
+      link: 'https://x.com/duke',
     },
   ];
 

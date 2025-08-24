@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { ThemeProvider } from '@/context/ThemeContext';
 
 export default function RootLayout({
   children,
@@ -24,11 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased min-h-screen flex flex-col">
-        <Navigation />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
+        <ThemeProvider>
+          <Navigation />
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

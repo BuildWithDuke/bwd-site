@@ -1,12 +1,23 @@
 @import "tailwindcss";
 
+/* Dark theme (default) */
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #1b1b1b;
+  --foreground: #e5e5e5;
   --accent: #3b82f6;
   --accent-hover: #2563eb;
-  --muted: #262626;
+  --muted: #2a2a2a;
   --border: #404040;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --background: #fafafa;
+  --foreground: #2a2a2a;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --muted: #f1f5f9;
+  --border: #d1d5db;
 }
 
 @theme inline {
