@@ -41,10 +41,10 @@
   </sodipodi:namedview>
   <!-- Lightning bolt icon -->
   <g
-     transform="translate(10, 10)"
+     transform="translate(10,17.5)"
      id="g1">
     <path
-       d="M20 5L8 23H16L12 35L24 17H16L20 5Z"
+       d="M 20,5 8,23 h 8 L 12,35 24,17 h -8 z"
        fill="#3b82f6"
        stroke="none"
        id="path1" />

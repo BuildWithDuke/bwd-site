@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 'compass',
     title: 'Compass',
     description: 'AI-powered course recommendation system for University of Waterloo students using LangChain and modern web technologies',
-    technologies: ['Python', 'FastAPI', 'LangChain', 'React', 'TypeScript', 'SQLite'],
+    technologies: ['Python', 'FastAPI', 'LangChain', 'PyTorch', 'Neo4j', 'React', 'TypeScript', 'Local Embeddings'],
     githubUrl: 'https://github.com/DukeofWaterloo/Compass',
     imageUrl: '/projects/compass.jpg',
     featured: true,

@@ -12,10 +12,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
   };
 
   return (
-    <div
-      className="group relative bg-muted border border-border rounded-lg overflow-hidden hover:border-accent transition-all duration-300 hover:-translate-y-2 fade-in-roll"
-      style={{ animationDelay: `${index * 0.15}s` }}
-    >
+    <Link href={`/projects/${project.id}`}>
+      <div
+        className="group relative bg-muted border border-border rounded-lg overflow-hidden hover:border-accent transition-all duration-300 hover:-translate-y-2 fade-in-roll cursor-pointer"
+        style={{ animationDelay: `${index * 0.15}s` }}
+      >
       <div className="aspect-video bg-gradient-to-br from-accent/20 to-accent-hover/20 flex items-center justify-center">
         <div className="text-4xl opacity-50">🚀</div>
       </div>
@@ -77,9 +78,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           )}
         </div>
       </div>
-      
-      <div className="absolute inset-0 bg-gradient-to-t from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-    </div>
+        
+        <div className="absolute inset-0 bg-gradient-to-t from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+    </Link>
   );
 };
 
