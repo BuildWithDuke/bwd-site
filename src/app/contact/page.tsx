@@ -13,9 +13,15 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // You can integrate with your preferred form handling service
+    
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(
+      `Hi Duke,\n\n${formData.message}\n\nBest regards,\n${formData.name}\n\n---\nSent from buildwithduke.com contact form`
+    );
+    
+    const mailtoLink = `mailto:hello@buildwithduke.com?subject=${subject}&body=${body}`;
+    window.open(mailtoLink, '_blank');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -29,26 +35,26 @@ export default function Contact() {
     {
       icon: '✉️',
       title: 'Email',
-      value: 'hello@buildwithduke.com',
-      link: 'mailto:hello@buildwithduke.com',
+      value: 'duke.gand@uwaterloo.ca',
+      link: 'mailto:duke.gand@uwaterloo.ca',
     },
     {
       icon: '💼',
       title: 'LinkedIn',
-      value: '/in/duke',
-      link: 'https://linkedin.com/in/duke',
+      value: '/in/duke-of-waterloo',
+      link: 'https://www.linkedin.com/in/duke-of-waterloo/',
     },
     {
       icon: '💻',
       title: 'GitHub',
-      value: '@duke',
-      link: 'https://github.com/duke',
+      value: '@BuildWithDuke',
+      link: 'https://github.com/BuildWithDuke',
     },
     {
       icon: '𝕏',
       title: 'X',
-      value: '@duke',
-      link: 'https://x.com/duke',
+      value: '@BuildWithDuke',
+      link: 'https://x.com/BuildWithDuke',
     },
   ];
 
