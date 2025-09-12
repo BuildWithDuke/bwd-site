@@ -88,9 +88,10 @@ export default function About() {
             </p>
             <p>
               These days, I&apos;m focused on building AI that actually ships. While most of the buzz is about the potential of AI, 
-              I&apos;m more interested in what it can do right now for real problems. Power grid monitoring with computer vision? 
-              Built it. Intelligent business automation? Shipped it. Making course selection less terrible for students? Done. 
-              Turns out, there&apos;s a lot of interesting work when you cross a critical path with smart software.
+              I&apos;m more interested in what it can do right now for real problems. Looking ahead, I&apos;m especially drawn to roles where complex problems meet meaningful impact.
+              The kind of work where you&apos;re not just building software but embedding directly with customers to solve their hardest challenges.
+              Where technical excellence meets real-world urgency, and where every solution you ship makes a measureable difference in how critical systems operate.
+              That's the sweet spot I&apos;m chasing.
             </p>
           </div>
         </motion.div>
