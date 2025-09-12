@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { href: 'https://github.com/duke', label: 'GitHub', icon: 'github' },
-    { href: 'https://linkedin.com/in/duke', label: 'LinkedIn', icon: 'linkedin' },
-    { href: 'https://x.com/duke', label: 'X', icon: 'x' },
+    { href: 'https://github.com/BuildWithDuke', label: 'GitHub', icon: 'github' },
+    { href: 'https://www.linkedin.com/in/duke-of-waterloo/', label: 'LinkedIn', icon: 'linkedin' },
+    { href: 'https://x.com/BuildWithDuke', label: 'X', icon: 'x' },
   ];
 
   const getIcon = (type: string) => {

@@ -91,7 +91,7 @@ export default function About() {
               I&apos;m more interested in what it can do right now for real problems. Looking ahead, I&apos;m especially drawn to roles where complex problems meet meaningful impact.
               The kind of work where you&apos;re not just building software but embedding directly with customers to solve their hardest challenges.
               Where technical excellence meets real-world urgency, and where every solution you ship makes a measureable difference in how critical systems operate.
-              That's the sweet spot I&apos;m chasing.
+              That&apos;s the sweet spot I&apos;m chasing.
             </p>
           </div>
         </motion.div>
