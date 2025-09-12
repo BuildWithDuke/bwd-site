@@ -8,7 +8,7 @@ export interface Project {
   imageUrl: string;
   featured: boolean;
   category: 'fullstack' | 'ai-ml' | 'tool' | 'other';
-  status: 'live' | 'development' | 'completed';
+  status: 'live' | 'development' | 'completed' | 'deploying' | 'locally-live';
 }
 
 export interface ProjectCardProps {

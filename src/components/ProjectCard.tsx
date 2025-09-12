@@ -1,12 +1,15 @@
 import { ProjectCardProps } from '@/types/project';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'live': return 'bg-green-500';
+      case 'locally-live': return 'bg-lime-500';
       case 'development': return 'bg-yellow-500';
       case 'completed': return 'bg-blue-500';
+      case 'deploying': return 'bg-purple-500';
       default: return 'bg-gray-500';
     }
   };
@@ -17,8 +20,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         className="group relative bg-muted border border-border rounded-lg overflow-hidden hover:border-accent transition-all duration-300 hover:-translate-y-2 fade-in-roll cursor-pointer"
         style={{ animationDelay: `${index * 0.15}s` }}
       >
-      <div className="aspect-video bg-gradient-to-br from-accent/20 to-accent-hover/20 flex items-center justify-center">
-        <div className="text-4xl opacity-50">🚀</div>
+      <div className="aspect-video bg-gradient-to-br from-accent/20 to-accent-hover/20 relative overflow-hidden">
+        <Image
+          src={project.imageUrl}
+          alt={`${project.title} preview`}
+          fill
+          className={project.id === 'pigeon' ? "object-contain p-4" : "object-cover"}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority
+        />
       </div>
       
       <div className="p-6">

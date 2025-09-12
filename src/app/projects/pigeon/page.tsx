@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function PigeonProject() {
   const techStack = ['Node.js', 'Express', 'SQLite', 'Docker', 'HTML5'];
@@ -66,14 +67,16 @@ export default function PigeonProject() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mb-12"
         >
-          <h2 className="text-2xl font-bold text-foreground mb-6">Demo</h2>
-          <div className="bg-muted/50 border border-border rounded-lg p-8 text-center">
-            <div className="aspect-video bg-gradient-to-br from-accent/10 to-accent-hover/10 rounded-lg flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4 opacity-30">📨</div>
-                <p className="text-foreground/60 text-lg">File Sharing Interface</p>
-                <p className="text-foreground/40 text-sm mt-2">Minimalist ephemeral file transfer system</p>
-              </div>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Preview</h2>
+          <div className="bg-muted/50 border border-border rounded-lg p-8">
+            <div className="bg-gradient-to-br from-accent/10 to-accent-hover/10 rounded-lg flex items-center justify-center p-8 min-h-[400px]">
+              <Image
+                src="/projects/pigeon_design.svg"
+                alt="Pigeon Interface Design"
+                className="w-full h-full max-w-none object-contain"
+                width={800}
+                height={600}
+              />
             </div>
           </div>
         </motion.div>
@@ -144,7 +147,7 @@ export default function PigeonProject() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
-              See It Live
+              See It Live (Coming Soon)
             </a>
           </div>
         </motion.div>

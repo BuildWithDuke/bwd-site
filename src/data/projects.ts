@@ -7,10 +7,10 @@ export const projects: Project[] = [
     description: 'AI-powered course recommendation system for University of Waterloo students using LangChain and modern web technologies',
     technologies: ['Python', 'FastAPI', 'LangChain', 'PyTorch', 'Neo4j', 'React', 'TypeScript', 'Local Embeddings'],
     githubUrl: 'https://github.com/DukeofWaterloo/Compass',
-    imageUrl: '/projects/compass.jpg',
+    imageUrl: '/projects/compass_screenshot.png',
     featured: true,
     category: 'ai-ml',
-    status: 'completed'
+    status: 'deploying'
   },
   {
     id: 'linecheck',
@@ -18,10 +18,10 @@ export const projects: Project[] = [
     description: 'AI-powered computer vision system detecting damaged electrical insulators in power transmission lines with 99.38% accuracy',
     technologies: ['Python', 'PyTorch', 'FastAI', 'ResNet-34', 'FastAPI', 'Docker'],
     githubUrl: 'https://github.com/DukeofWaterloo/LineCheck',
-    imageUrl: '/projects/linecheck.jpg',
+    imageUrl: '/projects/linecheck_screenshot.png',
     featured: true,
     category: 'ai-ml',
-    status: 'completed'
+    status: 'deploying'
   },
   {
     id: 'eagle-eye',
@@ -29,10 +29,10 @@ export const projects: Project[] = [
     description: 'AI-powered B2B SaaS platform for managing and responding to online Google reviews with intelligent, context-aware responses',
     technologies: ['Python', 'Flask', 'Ollama', 'PostgreSQL', 'Celery', 'Docker'],
     githubUrl: 'https://github.com/DukeofWaterloo/Eagle-Eye',
-    imageUrl: '/projects/eagle-eye.jpg',
+    imageUrl: '/projects/eagle-eye_screenshot.png',
     featured: true,
     category: 'ai-ml',
-    status: 'live'
+    status: 'locally-live'
   },
   {
     id: 'educated-misfits',
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     description: 'Full-stack e-commerce platform for campus culture apparel with Stripe integration, creator dashboard, and comprehensive business logic',
     technologies: ['Node.js', 'Express', 'Stripe API', 'HTML5', 'CSS3', 'JavaScript'],
     githubUrl: 'https://github.com/DukeofWaterloo/educated-misfits',
-    imageUrl: '/projects/educated-misfits.jpg',
+    imageUrl: '/projects/educated-misfits_screenshot.png',
     featured: true,
     category: 'fullstack',
     status: 'live'
@@ -51,10 +51,10 @@ export const projects: Project[] = [
     description: 'Real-time multiplayer Ultimate Tic-Tac-Toe game with WebSocket communication, complex game logic, and responsive design',
     technologies: ['Go', 'Gin', 'SvelteKit', 'TypeScript', 'WebSocket'],
     githubUrl: 'https://github.com/DukeofWaterloo/T-9',
-    imageUrl: '/projects/t9.jpg',
+    imageUrl: '/projects/ultimate_screenshot.png',
     featured: true,
     category: 'fullstack',
-    status: 'live'
+    status: 'deploying'
   },
   {
     id: 'pigeon',
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     description: 'Minimalist ephemeral file-sharing application for trusted networks with automatic file cleanup and large file support',
     technologies: ['Node.js', 'Express', 'SQLite', 'Docker', 'HTML5'],
     githubUrl: 'https://github.com/DukeofWaterloo/pigeon',
-    imageUrl: '/projects/pigeon.jpg',
+    imageUrl: '/projects/pigeon-wordmark.svg',
     featured: true,
     category: 'tool',
     status: 'development'
