@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     id: 'compass',
     title: 'Compass',
-    description: 'AI-powered course recommendation system for University of Waterloo students using LangChain and modern web technologies',
+    description: 'Personalized course recommendation system for University of Waterloo students using LangChain and modern web technologies',
     technologies: ['Python', 'FastAPI', 'LangChain', 'PyTorch', 'Neo4j', 'React', 'TypeScript', 'Local Embeddings'],
     githubUrl: 'https://github.com/DukeofWaterloo/Compass',
     imageUrl: '/projects/compass_screenshot.png',
@@ -15,7 +15,7 @@ export const projects: Project[] = [
   {
     id: 'linecheck',
     title: 'LineCheck',
-    description: 'AI-powered computer vision system detecting damaged electrical insulators in power transmission lines with 99.38% accuracy',
+    description: 'Deep learning computer vision system detecting damaged electrical insulators in power transmission lines with 99.38% accuracy',
     technologies: ['Python', 'PyTorch', 'FastAI', 'ResNet-34', 'FastAPI', 'Docker'],
     githubUrl: 'https://github.com/DukeofWaterloo/LineCheck',
     imageUrl: '/projects/linecheck_screenshot.png',
