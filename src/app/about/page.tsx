@@ -25,6 +25,12 @@ export default function About() {
       description: 'Built Python/SQL automation tools saving 200+ hours annually. Created PowerBI dashboards for data-driven decision making.',
     },
     {
+      title: 'Automation & Data Engineering',
+      company: 'IESO (Co-op)',
+      period: 'Jan 2024 - Apr 2024',
+      description: 'Developed automated workflows for 25+ staff. Applied statistical analysis to optimize energy demand forecasting.',
+    },
+    {
       title: 'Engineering Society President',
       company: 'University of Waterloo',
       period: 'Apr 2022 - Aug 2023',
@@ -35,12 +41,6 @@ export default function About() {
       company: 'Hifi (Co-op)',
       period: 'May 2022 - Aug 2022',
       description: 'Re-engineered Flask dashboard for 30+ engineers. Built analytics platform processing 73 million database entries.',
-    },
-    {
-      title: 'Automation & Data Engineering',
-      company: 'IESO (Co-op)',
-      period: 'Jan 2024 - Apr 2024',
-      description: 'Developed automated workflows for 25+ staff. Applied statistical analysis to optimize energy demand forecasting.',
     },
   ];
 
@@ -88,10 +88,10 @@ export default function About() {
             </p>
             <p>
               These days, I&apos;m focused on building AI that actually ships. While most of the buzz is about the potential of AI, 
-              I&apos;m more interested in what it can do right now for real problems. Looking ahead, I&apos;m especially drawn to roles where complex problems meet meaningful impact.
+              I&apos;m more interested in what it can do right now for real problems. Looking ahead, I&apos;m drawn to roles where complex thinking meet meaningful impact.
               The kind of work where you&apos;re not just building software but embedding directly with customers to solve their hardest challenges.
-              Where technical excellence meets real-world urgency, and where every solution you ship makes a measureable difference in how critical systems operate.
-              That's the sweet spot I&apos;m chasing.
+              Where technical excellence meets real-world urgency, and where every solution makes a measureable difference in how critical systems operate.
+              That&apos;s the sweet spot I&apos;m chasing.
             </p>
           </div>
         </motion.div>

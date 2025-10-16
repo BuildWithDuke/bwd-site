@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1440 900"
+   style="background: #ffffff;"
+   version="1.1"
+   id="svg38"
+   sodipodi:docname="pigeon_design.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview38"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0402778"
+     inkscape:cx="699.33243"
+     inkscape:cy="32.202937"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <!-- Background with subtle gradient -->
+  <defs
+     id="defs2">
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         style="stop-color:#ffffff;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#f9f9f9;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <!-- Glassmorphism effect -->
+    <filter
+       id="glass"
+       x="-50%"
+       y="-50%"
+       width="200%"
+       height="200%">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="20"
+         id="feGaussianBlur2" />
+      <feOffset
+         dx="0"
+         dy="8"
+         result="offset"
+         id="feOffset2" />
+      <feFlood
+         flood-color="rgba(255,255,255,0.8)"
+         id="feFlood2" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         id="feComposite2" />
+    </filter>
+    <!-- Subtle shadow -->
+    <filter
+       id="subtleShadow"
+       x="-0.0005"
+       y="-0.00089285714"
+       width="1.001"
+       height="1.0017857">
+      <feDropShadow
+         dx="0"
+         dy="2"
+         stdDeviation="8"
+         flood-opacity="0.06" />
+    </filter>
+    <!-- Button shadow -->
+    <filter
+       id="buttonShadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="0"
+         dy="1"
+         stdDeviation="3"
+         flood-opacity="0.1" />
+    </filter>
+  </defs>
+  <rect
+     width="1440"
+     height="900"
+     fill="url(#bgGradient)"
+     id="rect2" />
+  <!-- Top Navigation - Ultra minimal -->
+  <g
+     transform="translate(80, 40)"
+     id="g5">
+    <!-- Logo/Brand -->
+    <text
+       x="0"
+       y="20"
+       style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 22px; font-weight: 600; fill: #1d1d1f; letter-spacing: -0.5px;"
+       id="text2">
+      🐦 Pigeon
+    </text>
+    <!-- User menu -->
+    <g
+       transform="translate(1200, 0)"
+       id="g4">
+      <circle
+         cx="30"
+         cy="15"
+         r="16"
+         style="fill: #f5f5f7; stroke: #e8e8ed; stroke-width: 0.5;"
+         id="circle2" />
+      <text
+         x="30"
+         y="20"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 12px; font-weight: 500; fill: #1d1d1f;"
+         id="text3">
+        A
+      </text>
+      <text
+         x="55"
+         y="20"
+         style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 14px; font-weight: 400; fill: #6e6e73;"
+         id="text4">
+        Alice
+      </text>
+    </g>
+  </g>
+  <!-- Main Content Container -->
+  <g
+     transform="translate(0,12.787717)"
+     id="g28">
+    <!-- Hero Section -->
+    <g
+       transform="translate(720,100)"
+       id="g8">
+      <text
+         x="0"
+         y="0"
+         text-anchor="middle"
+         style="font-weight:600;font-size:48px;font-family:'-apple-system', 'SF Pro Display', sans-serif;letter-spacing:-1px;fill:#1d1d1f"
+         id="text5">Share files</text>
+      <text
+         x="0"
+         y="50"
+         text-anchor="middle"
+         style="font-weight:300;font-size:48px;font-family:'-apple-system', 'SF Pro Display', sans-serif;letter-spacing:-1px;fill:#86868b"
+         id="text6">pain-free</text>
+      <text
+         x="0"
+         y="100"
+         text-anchor="middle"
+         style="font-weight:400;font-size:19px;line-height:1.4;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#6e6e73"
+         id="text7">Send large files to friends with just a drag and drop.</text>
+      <text
+         x="0"
+         y="125"
+         text-anchor="middle"
+         style="font-weight:400;font-size:19px;line-height:1.4;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#6e6e73"
+         id="text8">Files disappear after download. Simple. Secure. Ephemeral.</text>
+    </g>
+    <!-- Main Upload Card -->
+    <g
+       transform="translate(320,280)"
+       id="g14">
+      <rect
+         width="800"
+         height="320"
+         rx="24"
+         style="fill:#ffffff;stroke:#e8e8ed;stroke-width:0.5;filter:url(#subtleShadow)"
+         id="rect8"
+         x="0"
+         y="0" />
+      <!-- Upload Area -->
+      <g
+         transform="translate(60,60)"
+         id="g13">
+        <!-- Icon -->
+        <circle
+           cx="360"
+           cy="80"
+           r="32"
+           style="fill:#f5f5f7"
+           id="circle8" />
+        <text
+           x="360"
+           y="90"
+           text-anchor="middle"
+           style="font-size:32px"
+           id="text9">📤</text>
+        <!-- Main text -->
+        <text
+           x="360"
+           y="140"
+           text-anchor="middle"
+           style="font-weight:500;font-size:24px;font-family:'-apple-system', 'SF Pro Display', sans-serif;fill:#1d1d1f"
+           id="text10">Drop files to upload</text>
+        <text
+           x="360"
+           y="170"
+           text-anchor="middle"
+           style="font-weight:400;font-size:16px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#6e6e73"
+           id="text11">or click to browse</text>
+        <!-- File size limit -->
+        <text
+           x="360"
+           y="200"
+           text-anchor="middle"
+           style="font-weight:400;font-size:14px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#86868b"
+           id="text12">Up to 10 GB</text>
+        <!-- Browse button -->
+        <rect
+           x="290"
+           y="220"
+           width="140"
+           height="36"
+           rx="18"
+           style="fill:#007aff;filter:url(#buttonShadow)"
+           id="rect12" />
+        <text
+           x="360"
+           y="242"
+           text-anchor="middle"
+           style="font-weight:500;font-size:16px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#ffffff"
+           id="text13">Choose Files</text>
+      </g>
+    </g>
+    <!-- Recent Files Section -->
+    <g
+       transform="translate(80,650)"
+       id="g27">
+      <text
+         x="0"
+         y="0"
+         style="font-weight:500;font-size:20px;font-family:'-apple-system', 'SF Pro Display', sans-serif;fill:#1d1d1f"
+         id="text14">Recent</text>
+      <!-- File Item 1 -->
+      <g
+         transform="translate(0,30)"
+         id="g19">
+        <rect
+           width="640"
+           height="64"
+           rx="12"
+           style="fill:#ffffff;stroke:#e8e8ed;stroke-width:0.5"
+           id="rect14"
+           x="0"
+           y="0" />
+        <g
+           transform="translate(20,20)"
+           id="g18">
+          <!-- File icon -->
+          <rect
+             width="24"
+             height="24"
+             rx="4"
+             style="fill:#007aff"
+             id="rect15"
+             x="0"
+             y="0" />
+          <text
+             x="12"
+             y="16"
+             text-anchor="middle"
+             style="font-weight:600;font-size:10px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#ffffff"
+             id="text15">ZIP</text>
+          <!-- File info -->
+          <text
+             x="40"
+             y="16"
+             style="font-weight:500;font-size:16px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#1d1d1f"
+             id="text16">vacation-memories.zip</text>
+          <text
+             x="40"
+             y="32"
+             style="font-weight:400;font-size:13px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#86868b"
+             id="text17">1.2 GB • 2 hours ago • Expires in 2 days</text>
+          <!-- Copy button -->
+          <rect
+             x="520"
+             y="8"
+             width="80"
+             height="28"
+             rx="14"
+             style="fill:#f5f5f7;stroke:#d1d1d6;stroke-width:0.5"
+             id="rect17" />
+          <text
+             x="560"
+             y="25"
+             text-anchor="middle"
+             style="font-weight:500;font-size:14px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#007aff"
+             id="text18">Copy</text>
+        </g>
+      </g>
+      <!-- File Item 2 -->
+      <g
+         transform="translate(0,104)"
+         id="g24">
+        <rect
+           width="640"
+           height="64"
+           rx="12"
+           style="fill:#ffffff;stroke:#e8e8ed;stroke-width:0.5"
+           id="rect19"
+           x="0"
+           y="0" />
+        <g
+           transform="translate(20,20)"
+           id="g23">
+          <!-- File icon -->
+          <rect
+             width="24"
+             height="24"
+             rx="4"
+             style="fill:#ff3b30"
+             id="rect20"
+             x="0"
+             y="0" />
+          <text
+             x="12"
+             y="16"
+             text-anchor="middle"
+             style="font-weight:600;font-size:10px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#ffffff"
+             id="text20">MP4</text>
+          <!-- File info -->
+          <text
+             x="40"
+             y="16"
+             style="font-weight:500;font-size:16px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#1d1d1f"
+             id="text21">project-presentation.mp4</text>
+          <text
+             x="40"
+             y="32"
+             style="font-weight:400;font-size:13px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#86868b"
+             id="text22">850 MB • 1 day ago • Expires in 2 days</text>
+          <!-- Copy button -->
+          <rect
+             x="520"
+             y="8"
+             width="80"
+             height="28"
+             rx="14"
+             style="fill:#f5f5f7;stroke:#d1d1d6;stroke-width:0.5"
+             id="rect22" />
+          <text
+             x="560"
+             y="25"
+             text-anchor="middle"
+             style="font-weight:500;font-size:14px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#007aff"
+             id="text23">Copy</text>
+        </g>
+      </g>
+      <!-- Empty state for more files -->
+      <g
+         transform="translate(680,30)"
+         id="g26">
+        <rect
+           width="640"
+           height="138"
+           rx="12"
+           style="fill:#fbfbfd;stroke:#e8e8ed;stroke-width:0.5;stroke-dasharray:4, 4"
+           id="rect24"
+           x="0"
+           y="0" />
+        <g
+           transform="translate(320,50)"
+           id="g25">
+          <text
+             x="0"
+             y="0"
+             text-anchor="middle"
+             style="font-weight:400;font-size:15px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#86868b"
+             id="text24">Drop files here for instant sharing</text>
+          <text
+             x="0"
+             y="25"
+             text-anchor="middle"
+             style="font-weight:400;font-size:13px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#c7c7cc"
+             id="text25">Files auto-delete after download or 3 days</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <!-- Upload Progress Modal (Hidden state) -->
+  <g
+     transform="translate(520, 300)"
+     opacity="0"
+     id="upload-modal">
+    <rect
+       width="400"
+       height="200"
+       rx="20"
+       style="fill: rgba(255,255,255,0.95); backdrop-filter: blur(20px); stroke: rgba(255,255,255,0.2); stroke-width: 1; filter: url(#subtleShadow);"
+       id="rect28" />
+    <!-- Progress header -->
+    <g
+       transform="translate(200, 40)"
+       id="g29">
+      <text
+         x="0"
+         y="0"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 18px; font-weight: 500; fill: #1d1d1f;"
+         id="text28">
+        Uploading
+      </text>
+      <text
+         x="0"
+         y="20"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Text, sans-serif; font-size: 14px; font-weight: 400; fill: #86868b;"
+         id="text29">
+        big-video-file.mp4
+      </text>
+    </g>
+    <!-- Progress ring -->
+    <g
+       transform="translate(200, 100)"
+       id="g30">
+      <circle
+         cx="0"
+         cy="0"
+         r="24"
+         style="fill: none; stroke: #e8e8ed; stroke-width: 4;"
+         id="circle29" />
+      <circle
+         cx="0"
+         cy="0"
+         r="24"
+         style="fill: none; stroke: #007aff; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 90, 150; transform: rotate(-90deg);"
+         id="circle30" />
+      <text
+         x="0"
+         y="4"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Text, sans-serif; font-size: 12px; font-weight: 600; fill: #1d1d1f;"
+         id="text30">
+        60%
+      </text>
+    </g>
+    <!-- Progress details -->
+    <g
+       transform="translate(200, 150)"
+       id="g31">
+      <text
+         x="0"
+         y="0"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Text, sans-serif; font-size: 13px; font-weight: 400; fill: #86868b;"
+         id="text31">
+        1.68 GB of 2.8 GB • 3 min remaining
+      </text>
+    </g>
+  </g>
+  <!-- Success State -->
+  <g
+     transform="translate(470, 280)"
+     opacity="0"
+     id="success-state">
+    <rect
+       width="500"
+       height="280"
+       rx="24"
+       style="fill: #ffffff; filter: url(#subtleShadow); stroke: #e8e8ed; stroke-width: 0.5;"
+       id="rect31" />
+    <!-- Success icon -->
+    <g
+       transform="translate(250, 60)"
+       id="g32">
+      <circle
+         cx="0"
+         cy="0"
+         r="30"
+         style="fill: #30d158;"
+         id="circle31" />
+      <text
+         x="0"
+         y="8"
+         text-anchor="middle"
+         style="font-size: 32px;"
+         id="text32">✓</text>
+    </g>
+    <!-- Success message -->
+    <g
+       transform="translate(250, 140)"
+       id="g34">
+      <text
+         x="0"
+         y="0"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 22px; font-weight: 500; fill: #1d1d1f;"
+         id="text33">
+        Ready to share
+      </text>
+      <text
+         x="0"
+         y="25"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Text, sans-serif; font-size: 15px; font-weight: 400; fill: #86868b;"
+         id="text34">
+        big-video-file.mp4
+      </text>
+    </g>
+    <!-- Share link -->
+    <g
+       transform="translate(50, 190)"
+       id="g35">
+      <rect
+         width="320"
+         height="40"
+         rx="12"
+         style="fill: #f5f5f7; stroke: #e8e8ed; stroke-width: 0.5;"
+         id="rect34" />
+      <text
+         x="20"
+         y="26"
+         style="font-family: -apple-system, SF Mono, monospace; font-size: 13px; font-weight: 400; fill: #86868b;"
+         id="text35">
+        pigeon.site/s/xa8k2m9p
+      </text>
+    </g>
+    <!-- Copy button -->
+    <g
+       transform="translate(380, 190)"
+       id="g36">
+      <rect
+         width="70"
+         height="40"
+         rx="12"
+         style="fill: #007aff; filter: url(#buttonShadow);"
+         id="rect35" />
+      <text
+         x="35"
+         y="26"
+         text-anchor="middle"
+         style="font-family: -apple-system, SF Pro Text, sans-serif; font-size: 15px; font-weight: 500; fill: #ffffff;"
+         id="text36">
+        Copy
+      </text>
+    </g>
+  </g>
+  <!-- Drag overlay -->
+  <rect
+     width="1440"
+     height="900"
+     rx="0"
+     style="fill: rgba(0,122,255,0.04); stroke: #007aff; stroke-width: 4; stroke-dasharray: 12,8; opacity: 0;"
+     id="drag-overlay" />
+  <g
+     transform="translate(720, 450)"
+     opacity="0"
+     id="drag-text">
+    <text
+       x="0"
+       y="0"
+       text-anchor="middle"
+       style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 32px; font-weight: 500; fill: #007aff;"
+       id="text37">
+      Drop to upload
+    </text>
+  </g>
+  <!-- Bottom subtle branding -->
+  <g
+     transform="translate(720,888)"
+     id="g38">
+    <text
+       x="0"
+       y="0"
+       text-anchor="middle"
+       style="font-weight:400;font-size:12px;font-family:'-apple-system', 'SF Pro Text', sans-serif;fill:#c7c7cc"
+       id="text38">Pigeon • Secure ephemeral file sharing</text>
+  </g>
+</svg>

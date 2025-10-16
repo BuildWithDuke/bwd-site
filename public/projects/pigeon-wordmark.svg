@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 400 120"
+   style="background: transparent;"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="pigeon-wordmark.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.8725"
+     inkscape:cx="200"
+     inkscape:cy="60.080107"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g7" />
+  <defs
+     id="defs1">
+    <!-- Subtle shadow for depth -->
+    <filter
+       id="logoShadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="0"
+         dy="1"
+         stdDeviation="2"
+         flood-color="#000000"
+         flood-opacity="0.04" />
+    </filter>
+  </defs>
+  <!-- Pigeon Icon -->
+  <g
+     transform="translate(60, 60)"
+     id="g6">
+    <!-- Body -->
+    <ellipse
+       cx="0"
+       cy="3"
+       rx="24"
+       ry="28"
+       fill="#6B7280"
+       filter="url(#logoShadow)"
+       id="ellipse1" />
+    <!-- Chest/belly -->
+    <ellipse
+       cx="0"
+       cy="8"
+       rx="16"
+       ry="18"
+       fill="#9CA3AF"
+       id="ellipse2" />
+    <!-- Head -->
+    <circle
+       cx="0"
+       cy="-20"
+       r="15"
+       fill="#6B7280"
+       id="circle2" />
+    <!-- Beak -->
+    <path
+       d="M -13 -24 L -20 -26 L -15 -19 Z"
+       fill="#F59E0B"
+       id="path2" />
+    <!-- Wings -->
+    <ellipse
+       cx="-6"
+       cy="-1"
+       rx="9"
+       ry="13"
+       fill="#4B5563"
+       id="ellipse3" />
+    <ellipse
+       cx="6"
+       cy="-1"
+       rx="9"
+       ry="13"
+       fill="#4B5563"
+       id="ellipse4" />
+    <!-- Tail -->
+    <ellipse
+       cx="0"
+       cy="25"
+       rx="11"
+       ry="9"
+       fill="#4B5563"
+       id="ellipse5" />
+    <!-- Eye -->
+    <circle
+       cx="-4"
+       cy="-23"
+       r="2"
+       fill="#1F2937"
+       id="circle5" />
+    <circle
+       cx="-3.5"
+       cy="-24"
+       r="0.6"
+       fill="#FFFFFF"
+       id="circle6" />
+    <!-- Package detail -->
+    <rect
+       x="-3"
+       y="5"
+       width="6"
+       height="4"
+       rx="0.8"
+       fill="#FFFFFF"
+       opacity="0.8"
+       id="rect6" />
+    <path
+       d="M -3 5 L 0 8 L 3 5"
+       stroke="#6B7280"
+       stroke-width="0.6"
+       fill="none"
+       id="path6" />
+  </g>
+  <!-- Wordmark -->
+  <g
+     transform="translate(120, 60)"
+     id="g7">
+    <text
+       x="0"
+       y="8"
+       style="font-family: -apple-system, SF Pro Display, sans-serif; font-size: 48px; font-weight: 600; fill: #1d1d1f; letter-spacing: -1px;"
+       id="text6">
+      Pigeon
+    </text>
+    <!-- Subtle tagline -->
+    <text
+       x="2"
+       y="34"
+       style="font-weight:400;font-size:14px;font-family:'-apple-system', 'SF Pro Text', sans-serif;letter-spacing:0.2px;fill:#86868b"
+       id="text7">Just. Hit. Send.</text>
+  </g>
+</svg>

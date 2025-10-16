@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import ImageCarousel from '@/components/ImageCarousel';
 
 export default function EagleEyeProject() {
   const techStack = ['Python', 'Flask', 'Ollama', 'PostgreSQL', 'Celery', 'Docker'];
@@ -27,8 +28,8 @@ export default function EagleEyeProject() {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">
               Eagle Eye
             </h1>
-            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-500 rounded-full border border-green-500/20">
-              Live
+            <span className="px-3 py-1 text-sm bg-lime-500/10 text-lime-500 rounded-full border border-lime-500/20">
+              Locally Live
             </span>
           </div>
           <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto">
@@ -65,15 +66,20 @@ export default function EagleEyeProject() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mb-12"
         >
-          <h2 className="text-2xl font-bold text-foreground mb-6">Demo</h2>
-          <div className="bg-muted/50 border border-border rounded-lg p-8 text-center">
-            <div className="aspect-video bg-gradient-to-br from-accent/10 to-accent-hover/10 rounded-lg flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4 opacity-30">👁️</div>
-                <p className="text-foreground/60 text-lg">Review Management Dashboard</p>
-                <p className="text-foreground/40 text-sm mt-2">AI-powered response generation interface</p>
-              </div>
-            </div>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Preview</h2>
+          <div className="bg-muted/50 border border-border rounded-lg p-8">
+            <ImageCarousel
+              images={[
+                {
+                  src: '/projects/eagle-eye_1.png',
+                  alt: 'Eagle Eye Interface - First View'
+                },
+                {
+                  src: '/projects/eagle-eye_2.png',
+                  alt: 'Eagle Eye Interface - Second View'
+                }
+              ]}
+            />
           </div>
         </motion.div>
 
@@ -135,15 +141,15 @@ export default function EagleEyeProject() {
               View Code
             </a>
             <a 
-              href="#"
+              href="https://github.com/DukeofWaterloo/Eagle-Eye"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 border border-border hover:border-accent text-foreground hover:text-accent font-medium py-3 px-6 rounded-lg transition-all"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
-              See It Live
+              Download & Run
             </a>
           </div>
         </motion.div>

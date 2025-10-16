@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: "Showcasing innovative projects in full-stack development, AI/ML, and tools that make life better. Interactive demos and live projects.",
   keywords: "full-stack developer, AI, ML, machine learning, web development, portfolio, interactive projects",
   authors: [{ name: "Duke" }],
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: "BuildWithDuke",
     description: "Full Stack Developer & AI/ML Explorer",
@@ -24,6 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      </head>
       <body className="antialiased min-h-screen flex flex-col">
         <ThemeProvider>
           <Navigation />

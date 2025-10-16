@@ -27,8 +27,8 @@ export default function LineCheckProject() {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">
               LineCheck
             </h1>
-            <span className="px-3 py-1 text-sm bg-blue-500/10 text-blue-500 rounded-full border border-blue-500/20">
-              Completed
+            <span className="px-3 py-1 text-sm bg-purple-500/10 text-purple-500 rounded-full border border-purple-500/20">
+              Deploying
             </span>
           </div>
           <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto">
@@ -65,14 +65,21 @@ export default function LineCheckProject() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mb-12"
         >
-          <h2 className="text-2xl font-bold text-foreground mb-6">Demo</h2>
-          <div className="bg-muted/50 border border-border rounded-lg p-8 text-center">
-            <div className="aspect-video bg-gradient-to-br from-accent/10 to-accent-hover/10 rounded-lg flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4 opacity-30">⚡</div>
-                <p className="text-foreground/60 text-lg">Computer Vision Analysis Demo</p>
-                <p className="text-foreground/40 text-sm mt-2">Power line insulator damage detection interface</p>
-              </div>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Preview</h2>
+          <div className="bg-muted/50 border border-border rounded-lg p-8">
+            <div className="aspect-video bg-gradient-to-br from-accent/10 to-accent-hover/10 rounded-lg overflow-hidden">
+              <video 
+                className="w-full h-full rounded-lg"
+                controls
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+              >
+                <source src="/projects/linecheck_video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </motion.div>
@@ -143,7 +150,7 @@ export default function LineCheckProject() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
-              See It Live
+              See It Live (Coming Soon)
             </a>
           </div>
         </motion.div>
