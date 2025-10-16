@@ -17,11 +17,12 @@ export const projects: Project[] = [
     title: 'LineCheck',
     description: 'Deep learning computer vision system detecting damaged electrical insulators in power transmission lines with 99.38% accuracy',
     technologies: ['Python', 'PyTorch', 'FastAI', 'ResNet-34', 'FastAPI', 'Docker'],
+    demoUrl: 'https://linecheck.buildwithduke.com',
     githubUrl: 'https://github.com/DukeofWaterloo/LineCheck',
     imageUrl: '/projects/linecheck_screenshot.png',
     featured: true,
     category: 'ai-ml',
-    status: 'deploying'
+    status: 'live'
   },
   {
     id: 'eagle-eye',
@@ -50,11 +51,12 @@ export const projects: Project[] = [
     title: 'T-9 Ultimate Tic-Tac-Toe',
     description: 'Real-time multiplayer Ultimate Tic-Tac-Toe game with WebSocket communication, complex game logic, and responsive design',
     technologies: ['Go', 'Gin', 'SvelteKit', 'TypeScript', 'WebSocket'],
+    demoUrl: 'https://ultimate.buildwithduke.com',
     githubUrl: 'https://github.com/DukeofWaterloo/T-9',
     imageUrl: '/projects/ultimate_screenshot.png',
     featured: true,
     category: 'fullstack',
-    status: 'deploying'
+    status: 'live'
   },
   {
     id: 'pigeon',

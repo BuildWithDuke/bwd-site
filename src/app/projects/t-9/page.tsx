@@ -27,8 +27,8 @@ export default function T9Project() {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground">
               T-9 Ultimate Tic-Tac-Toe
             </h1>
-            <span className="px-3 py-1 text-sm bg-purple-500/10 text-purple-500 rounded-full border border-purple-500/20">
-              Deploying
+            <span className="px-3 py-1 text-sm bg-green-500/10 text-green-500 rounded-full border border-green-500/20">
+              Live
             </span>
           </div>
           <p className="text-lg md:text-xl text-foreground/70 max-w-2xl mx-auto">
@@ -140,16 +140,16 @@ export default function T9Project() {
               </svg>
               View Code
             </a>
-            <a 
-              href="#"
+            <a
+              href="https://ultimate.buildwithduke.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 border border-border hover:border-accent text-foreground hover:text-accent font-medium py-3 px-6 rounded-lg transition-all"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
-              See It Live (Coming Soon)
+              See It Live
             </a>
           </div>
         </motion.div>
