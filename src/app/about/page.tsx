@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 export default function About() {
   const skills = [
-    { category: 'AI/ML', items: ['PyTorch', 'FastAI', 'LangChain', 'OpenAI', 'Ollama', 'Computer Vision'] },
-    { category: 'Backend', items: ['Python', 'Node.js', 'Go', 'Flask', 'FastAPI', 'Express'] },
-    { category: 'Frontend', items: ['React', 'TypeScript', 'SvelteKit', 'HTML5', 'CSS3'] },
-    { category: 'Engineering', items: ['Power Systems', 'Data Engineering', 'Automation', 'Linux', 'Docker'] },
+    { category: 'AI/ML', items: ['PyTorch', 'FastAI', 'LangChain', 'OpenAI', 'Ollama', 'Deep RL', 'Computer Vision'] },
+    { category: 'Backend', items: ['Python', 'Node.js', 'Go', 'Flask', 'FastAPI', 'Express', 'PostgreSQL'] },
+    { category: 'Frontend', items: ['React', 'TypeScript', 'Next.js', 'SvelteKit', 'Tailwind'] },
+    { category: 'Engineering', items: ['Power Systems', 'Data Engineering', 'Automation', 'Linux', 'Docker', 'Nginx'] },
   ];
 
   const experiences = [
@@ -16,31 +16,55 @@ export default function About() {
       title: 'Nuclear Systems Engineer (AI Ambassador)',
       company: 'Ontario Power Generation',
       period: 'Jun 2025 - Present',
-      description: 'Exploring AI pilot projects for RAG-based equipment preventative maintenance program scheduling. Automated workflows saving 10+ hours weekly across departments. Responsible for safe operation and maintenance of critical systems during nuclear refurbishment.',
+      description: 'Training ML pilots on a $26.8B nuclear refurbishment. Built dashboards used by VPs and teams of 200+. Saved 520 hours of monthly work through automation.',
+    },
+    {
+      title: 'Co-Founder/CTO',
+      company: 'Stealth AI Startup',
+      period: 'Oct 2025 - Dec 2025',
+      description: 'Building the future of A → Z routing. Deep Reinforcement Learning & multi-objective optimization algorithms. Multi-objective routing engine for pipeline projects with adversarial agent validation.',
+    },
+    {
+      title: 'Founder/CEO',
+      company: 'Patched Up',
+      period: 'Oct 2023 - Present',
+      description: 'Uber for Merch. Built the brand, managed ops, grew the client base from scratch.',
     },
     {
       title: 'Work Optimization Analyst',
-      company: 'Ontario Power Generation',
+      company: 'Ontario Power Generation (Co-op)',
       period: 'Sep 2024 - Dec 2024',
-      description: 'Built Python/SQL automation tools saving 200+ hours annually. Created PowerBI dashboards for data-driven decision making.',
+      description: 'Saw broken reporting. Made a Python pipeline. Gave the team 200 hours back in 2 days.',
     },
     {
       title: 'Automation & Data Engineering',
       company: 'IESO (Co-op)',
       period: 'Jan 2024 - Apr 2024',
-      description: 'Developed automated workflows for 25+ staff. Applied statistical analysis to optimize energy demand forecasting.',
+      description: 'Automated workflows for 25+ staff. Found new forecasting insights. Led technical workshops week 3 onwards.',
+    },
+    {
+      title: 'Field Data Engineering',
+      company: 'BC Hydro (Co-op)',
+      period: 'Jan 2023 - Apr 2023',
+      description: 'Built skills tracking for 250 electricians. Learned how the grid actually works from the field.',
     },
     {
       title: 'Engineering Society President',
       company: 'University of Waterloo',
       period: 'Apr 2022 - Aug 2023',
-      description: 'Led 8,000+ engineering students. Pioneered Iron Pin Ceremony tradition and organized Tesla Career Drive attracting 200+ students/hour.',
+      description: 'Ran a 10k student org. Launched the Waterloo Engineering Iron Pin. Brought Tesla+ to campus for recruiting.',
     },
     {
       title: 'Fullstack Software Developer',
       company: 'Hifi (Co-op)',
       period: 'May 2022 - Aug 2022',
-      description: 'Re-engineered Flask dashboard for 30+ engineers. Built analytics platform processing 73 million database entries.',
+      description: 'Dashboard was breaking under 73M records. Rebuilt it, made it 14% faster, helped ship SOC2.',
+    },
+    {
+      title: 'Software Test Engineering',
+      company: 'Electrovaya (Co-op)',
+      period: 'Sep 2021 - Dec 2021',
+      description: 'Tested battery firmware. Optimized the tests. Learned embedded systems and CAN bus.',
     },
   ];
 
@@ -76,22 +100,23 @@ export default function About() {
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">My Journey</h2>
           <div className="prose prose-lg max-w-none text-foreground/80">
             <p className="mb-4">
-              A curious spark that started with Lego sets soon led to nuclear reactors, neural networks, and everything in-between. My engineering foundation was built in the critical infrastructure 
-              world: power plants, transmission systems, energy markets, the backbone that powers modern society. Through co-op roles at 
-              Ontario Power Generation, IESO, and BC Hydro, I saw firsthand how technology transforms complex problems 
-              into elegant solutions.
+              A curious spark that started with Lego sets soon led to nuclear reactors, neural networks, and everything in-between.
+              My engineering foundation was built in the critical infrastructure world: BC Hydro, IESO, Ontario Power Generation.
+              automating workflows, building data pipelines to process billions of records, and saving 100,000+ hours/year of manual work.
+              Through co-op placements across the grid, I saw firsthand how technology transforms the backbone that powers modern society.
             </p>
             <p className="mb-4">
-              Leading 8,000+ engineering students as the University of Waterloo Engineering Society&apos;s President taught me that breakthrough innovation happens 
-              at the intersection of deep technical knowledge and bold vision, and sometimes just being in the right place at the right time talking to the right person. That&apos;s where I found my calling - 
-              building intelligent systems that understand both people and purpose.
+              Leading 10,000+ engineering students as the University of Waterloo Engineering Society&apos;s President taught me that
+              breakthrough innovation happens at the intersection of deep technical knowledge and bold vision. And sometimes just
+              being in the right place at the right time talking to the right person. I created new traditions, put out literal fires,
+              and learned how to ship under pressure. Give me a messy manual process and I&apos;ll come back with an automated system that just works.
             </p>
             <p>
-              These days, I&apos;m focused on building AI that actually ships. While most of the buzz is about the potential of AI, 
-              I&apos;m more interested in what it can do right now for real problems. Looking ahead, I&apos;m drawn to roles where complex thinking meet meaningful impact.
-              The kind of work where you&apos;re not just building software but embedding directly with customers to solve their hardest challenges.
-              Where technical excellence meets real-world urgency, and where every solution makes a measureable difference in how critical systems operate.
-              That&apos;s the sweet spot I&apos;m chasing.
+              Now I&apos;m an AI Ambassador on Ontario&apos;s $26.8B Nuclear Refurbishment, exploring AI pilots that help complete
+              the project early and under budget. Looking ahead, I&apos;m drawn to Forward Deployed roles. The kind of work where
+              you&apos;re not just building software but embedding directly with customers to solve their hardest challenges.
+              Where technical excellence meets real-world urgency, and where every solution makes a measurable difference
+              in how critical systems operate. Hard problems, fast teams. Let&apos;s change the world.
             </p>
           </div>
         </motion.div>
